@@ -8,6 +8,6 @@
 
 ### References:
 
-*[Github](https://gist.github.com/dvlden/b9d923cb31775f92fa54eb8c39ccd5a9)
+* [Github](https://gist.github.com/dvlden/b9d923cb31775f92fa54eb8c39ccd5a9)
 
-*[Stack](https://unix.stackexchange.com/questions/28803/how-can-i-reduce-a-videos-size-with-ffmpeg)
+* [Stack](https://unix.stackexchange.com/questions/28803/how-can-i-reduce-a-videos-size-with-ffmpeg)
