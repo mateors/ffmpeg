@@ -1,3 +1,7 @@
+## Gpac MP4Box
+
+> sudo apt install gpac
+
 > MP4Box -dash 4000 -segment-name folder/mysegs_%s -url-template -out manifest.mpd input_audio_128k.mp4 input_video_160x90_250k.mp4
 
 > MP4Box -dash 4000 -segment-name folder/mysegs_%s -url-template -out manifest.mpd input_audio_128k.mp4 input_video_160x90_250k.mp4 input_video_640x360_750k.mp4  input_video_1920x1080_1500k.mp4
