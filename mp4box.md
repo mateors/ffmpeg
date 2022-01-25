@@ -10,3 +10,7 @@
   myvideo_640x360.mp4 \
   myvideo_320x180.mp4
   ```
+
+## Resource
+* https://github.com/gpac/gpac/wiki/GPAC-Build-Guide-for-Linux
+* 
