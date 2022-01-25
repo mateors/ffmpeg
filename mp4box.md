@@ -78,7 +78,10 @@ This process will generate MPEG-4 initialization files that the DASH player read
 > to generate pssh data and/or pssh box to use in our workflow. This tools helpful to easily provide the base64 pssh data for Widevine and PlayReady.
 
 
+### https://installati.one/ubuntu/20.04/gpac
+> sudo dpkg -i gpac_1.1.0-DEV-rev1663-g881c6a94-master_amd64.deb
 
+> sudo apt --fix-broken install
 
 ## Resource
 * https://github.com/gpac/gpac/wiki/GPAC-Build-Guide-for-Linux
