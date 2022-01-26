@@ -22,3 +22,4 @@
 * [Stack](https://unix.stackexchange.com/questions/28803/how-can-i-reduce-a-videos-size-with-ffmpeg)
 * [Chaet Sheet](https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730)
 * [FFMPEG VIDEO MANIPULATION](https://api.video/blog/video-trends/ffmpeg-for-beginners-processing-converting-and-streaming-video)
+* [ffmpeg Introduction](https://programminghistorian.org/en/lessons/introduction-to-ffmpeg)
