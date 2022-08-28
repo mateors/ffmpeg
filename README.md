@@ -1,4 +1,4 @@
-# How can i reduce my video size?
+# How can I reduce my video file size?
 > use the ffmpeg software to reduce any video format
 > in my case it reduces from 700MB to 100MB almost 7 times lower than the original.
 
