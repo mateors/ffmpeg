@@ -15,6 +15,15 @@
 > `ffmpeg -ss 00:00:06 -i input.mp4 -c copy output.mp4`\
 > Above command will start copying from 06 seconds to the end of the video
 
+## Convert-a-set-of-images-into-a-video
+
+```
+ffmpeg -framerate 1 -i frame_%d.png -c:v libx264 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" -pix_fmt yuv420p slide.mp4
+
+ffmpeg -framerate 16 -i frame_%d.png -c:v libx264 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" -pix_fmt yuv420p slide4.mp4
+
+ffmpeg -framerate 12 -i frame_%d.png -c:v libx264 -vf "scale=1920:1080:force_original_aspect_ratio=decrease:eval=frame,pad=1920:1080:-1:-1:eval=frame"  -pix_fmt yuv420p -crf 20 slide9.mp4
+```
 
 ### References:
 
@@ -25,3 +34,4 @@
 * [FFMPEG VIDEO MANIPULATION](https://api.video/blog/video-trends/ffmpeg-for-beginners-processing-converting-and-streaming-video)
 * [ffmpeg Introduction](https://programminghistorian.org/en/lessons/introduction-to-ffmpeg)
 * [ffmpeg-libav](https://www.lhsz.xyz/read/ffmpeg-libav-tutorial/spilt.4.spilt.1.blank)
+* [convert-a-set-of-images-into-a-video](https://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video)
