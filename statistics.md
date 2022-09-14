@@ -71,3 +71,8 @@ ffmpeg -i audio_1.mp3 -af asetnsamples=48000,astats=metadata=1:reset=1,ametadata
 
 ffmpeg -i audio_1.mp3 -filter:a volumedetect -f null /dev/null
 
+## Resource
+* [convert-a-set-of-images-into-a-video](https://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video)
+* [audio types](https://trac.ffmpeg.org/wiki/audio%20types)
+* [ffmpeg-wiki](https://trac.ffmpeg.org/wiki/audio%20types)
+* [ffmpeg-filters](https://ffmpeg.org/ffmpeg-filters.html#astats)
