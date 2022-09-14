@@ -66,3 +66,8 @@ ffmpeg -i audio_1.mp3 -af asetnsamples=48000,astats=metadata=1:reset=1,ametadata
 
 ffmpeg -i audio_1.mp3 -af asetnsamples=48000,astats=metadata=1:reset=1,ametadata=print:key=lavfi.astats.Overall.RMS_level:file=- -f null - > meta4.txt
 
+##  print all metadata values available in frame.
+> `ffmpeg -i audio_1.mp3 -af asetnsamples=48000,astats=metadata=1:reset=1,ametadata=print:file=- -f null - > meta6.txt`
+
+ffmpeg -i audio_1.mp3 -filter:a volumedetect -f null /dev/null
+
