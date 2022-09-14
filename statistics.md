@@ -1,4 +1,4 @@
-## ffprobe & ffmpeg audio spectrogram analysis
+# ffprobe & ffmpeg for audio spectrogram analysis
 
 ffprobe -print_format json -show_format -show_streams audio_1.mp3
 
