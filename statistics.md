@@ -77,3 +77,5 @@ ffmpeg -i audio_1.mp3 -filter:a volumedetect -f null /dev/null
 * [ffmpeg-wiki](https://trac.ffmpeg.org/wiki/audio%20types)
 * [ffmpeg-filters](https://ffmpeg.org/ffmpeg-filters.html#astats)
 * [ffmpeg-ametadata](https://ffmpeg.org/ffmpeg-all.html#metadata_002c-ametadata)
+* [audiowaveform](https://github.com/bbc/audiowaveform#data-formats)
+* [seewav](https://github.com/adefossez/seewav)
