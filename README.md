@@ -27,7 +27,7 @@ ffmpeg -framerate 12 -i frame_%d.png -c:v libx264 -vf "scale=1920:1080:force_ori
 
 
 ## Concat multiple videos into one video file
-> ffmpeg -f concat -i data3.txt -c copy output.mp4
+> ffmpeg -f concat -i `data3.txt` -c copy output.mp4
 
 ### `data3.txt` content:
 ```
