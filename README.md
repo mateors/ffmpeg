@@ -25,6 +25,17 @@ ffmpeg -framerate 16 -i frame_%d.png -c:v libx264 -vf "pad=ceil(iw/2)*2:ceil(ih/
 ffmpeg -framerate 12 -i frame_%d.png -c:v libx264 -vf "scale=1920:1080:force_original_aspect_ratio=decrease:eval=frame,pad=1920:1080:-1:-1:eval=frame"  -pix_fmt yuv420p -crf 20 slide9.mp4
 ```
 
+
+## Concat multiple videos into one video file
+> ffmpeg -f concat -i data3.txt -c copy output.mp4
+
+### `data3.txt` content:
+```
+file '1_1_1__1_Introduction.mp4' 
+file '1_1_2__2_Who_This_Course_Is_For.mp4' 
+file '1_1_3__3-_What_You_Need.mp4' 
+```
+
 ### References:
 
 * [Sample Video files](https://file-examples.com/index.php/sample-video-files/sample-webm-files-download)
